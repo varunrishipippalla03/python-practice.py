@@ -1,0 +1,10 @@
+def check_word_occcurence():
+    text = input("Enter the text:")
+    word = input("Enter the word to check:")
+
+    if word in text:
+        print(f"The word '{word}'' is occurs in text.")
+    else:
+        print(f"The word '{word}'does not occur in the text.")
+    
+  
